@@ -10,7 +10,7 @@ public class homeworkWeekdays {
         {
             System.out.println("You entered number  " + a);// confirming to user hes entry number //
 
-                switch (a) {
+                switch (a) { //starting compare user number if it related to weekdays
                     case 1:
                         System.out.println("Great you tough about Monday!");
                         break;

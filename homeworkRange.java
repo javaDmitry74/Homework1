@@ -20,7 +20,6 @@ public class homeworkRange {
                 if (e > a && e < c) { //checking for middle range
                     System.out.println("According to our calculation , number you entered fit to our Middle range of values");
                 }
-
                     System.out.println("You entered number  " + e);
                 }
             }
