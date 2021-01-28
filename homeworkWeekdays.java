@@ -9,10 +9,7 @@ public class homeworkWeekdays {
         a = num.nextInt();
         {
             System.out.println("You entered number  " + a);// confirming to user hes entry number //
-            if (a < 1 || a > 7) {// checking if number entered by user within range 1-7 ( weekdays) //
-                System.out.println("Sorry but according to our records there is no week day related to number you entered  " + a);
-                System.out.println("You could run program again and use our hint about week days ");
-            } else {
+
                 switch (a) {
                     case 1:
                         System.out.println("Great you tough about Monday!");
@@ -35,9 +32,11 @@ public class homeworkWeekdays {
                     case 7:
                         System.out.println("Great you tough about Sunday!");
                         break;
+                    default:
+                        System.out.println("Sorry but according to our records there is no week day related to number you entered  " + a);
+                        System.out.println("You could run program again and use our hint about week days ");
                 }
 
             }
         }
     }
-}
