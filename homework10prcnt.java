@@ -8,8 +8,8 @@ public class homework10prcnt {
         int a = num.nextInt();
 
         int july = 100; // this will be our number
-        int b = july - (july/100)*10;// here we define range of -10% of our number
-        int c = july + (july/100)*10; // here we define + 10% of our number
+        double b = july - (july*0.1);// here we define range  -10% of our number
+        double c = july + (july*0.1); // here we define range + 10% of our number
         if (a <= c && a >= b) {
             System.out.println("Congratulations you guess correctly we entered number 100 "); // this will print if user guessed correctly and entered
             System.out.println(" and your number " + a + " are within 10% of our number "); // number within 10% of our
